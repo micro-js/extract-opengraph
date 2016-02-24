@@ -35,10 +35,10 @@ jsdom.env('https://www.instagram.com/p/2VBMcXMYxV/', function (err, wnd) {
 
 ## API
 
-### extractOpengraph(node)
+### extractOpengraph(node, prefix)
 
 - `node` - The node (or window element) you want to extract OG metadata from.
-- `prefix` - If you want to extract metadata with a prefix other than `og:`, you may specify it here.
+- `prefix` - Optional. Defaults to 'og:'. If you want to extract metadata with a prefix other than `og:`, you may specify it here.
 
 **Returns:** An object containing key value pairs extracted from your meta tags that match the prefix, with the `property` attributes as the keys (with the prefix stripped) and the `content` attributes as the values.
 
