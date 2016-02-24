@@ -2,7 +2,7 @@
   "name": "@f/extract-opengraph",
   "description": "Extract opengraph metadata from a DOM (or dom-like thing, e.g. jsdom) into an object",
   "repository": "git://github.com/micro-js/extract-opengraph.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
